@@ -1,0 +1,8 @@
+*.hi
+*.o
+site
+_site/
+_cache/
+*.log
+.sass-cache/
+.hsenv/

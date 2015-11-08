@@ -1,0 +1,12 @@
+<ul>
+    $for(posts)$
+        <li>
+            <a href="$url$">$title$</a> ($date$)
+              $if(short)$
+                <div class=preamble>
+                  $short$
+                </div>
+              $endif$
+        </li>
+    $endfor$
+</ul>
